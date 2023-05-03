@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    width: calc(80px * 8);
+    height: calc(80px * 8);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black {
+    background-color: slategrey;
+}
+
+.white {
+    background-color: whitesmoke;
+}
+
+.checker {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    position: relative;
+}
+
+.blackChecker {
+    background-color: #1c1c1c;
+}
+
+.whiteChecker {
+    background-color: whitesmoke;
+}

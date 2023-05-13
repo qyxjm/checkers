@@ -25,8 +25,8 @@ export default class Board extends React.Component {
         return (
             <div className='board'>
                 {
-                    board.map((row, x) =>
-                        row.map((cell, y) => (
+                    board.map((row) =>
+                        row.map((cell) => (
                             <Cell
                                 x={cell.x}
                                 y={cell.y}

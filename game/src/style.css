@@ -28,3 +28,18 @@
 .white {
   background-color: whitesmoke;
 }
+
+.checker {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  position: relative;
+}
+
+.blackChecker {
+  background-color: #1c1c1c;
+}
+
+.whiteChecker {
+  background-color: whitesmoke;
+}
